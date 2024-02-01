@@ -1,14 +1,15 @@
+html{
+	font-size: 20px; /*Changes size of all text, since all text is within <html></html
+	*/
+}
 h1 {
 	color: rgb(75,0,110);
 }
-
 h2{
 	color: rgb(129,44,168);
 }
-
 body{
 	background-color: rgb(240,209,255);
-	font-size: 20px;
 	font-family: sans-serif;
 	margin-left: 100px;
 	margin-right: 100px;
