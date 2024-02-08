@@ -4,9 +4,11 @@ html{
 }
 h1 {
 	color: rgb(75,0,110);
+	/*add font-family: fontName; here */
 }
 h2{
 	color: rgb(129,44,168);
+	/*add font-family: fontName; here */
 }
 body{
 	background-color: rgb(240,209,255);
@@ -16,4 +18,5 @@ body{
 	margin-top: 75px;
 	margin-bottom: 100px;
 	line-height: 30px;
+	/*add font-family: fontName; here */
 }
