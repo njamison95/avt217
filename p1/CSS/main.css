@@ -1,4 +1,4 @@
-h1{
+h1 {
 	color: rgb(1,73,92);
 	font-family: sans-serif;
 	text-align: center;
@@ -8,21 +8,25 @@ h1{
 	color: rgb(1,73,92);
 }
 
-h2{
+h2 {
 	color: rgb(0,149,186);
 	font-family: sans-serif;
 }
 
-h3{
+h3 {
 	color: rgb(0,149,186);
 	font-family: sans-serif;
 }
 
-p{
+.yellow {
+	color: yellow;
+}
+
+p {
 	text-indent: 60px;
 }
 
-body{
+body {
 	background-color: rgb(209,246,255);
 	color: rgb(1,43,54);
 	font-size: 20px;
@@ -48,10 +52,10 @@ a:link {
 }
 
 a:hover {
-	color: whitesmoke;
+	color: tomato;
 	border-bottom: 20px;
 	font-family: fantasy;
-	font-size: 100px;
+	font-size: 300px;
 }
 
 a:active { /*"I am being clicked at this moment."*/
