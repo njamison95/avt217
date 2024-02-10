@@ -1,63 +1,54 @@
-h1 {
-	color: rgb(1,73,92);
-	font-family: sans-serif;
+.title {
+	color: rgb(25,50,112);
+	font-size: 80px;
+	font-family: "Sora", sans-serif;
+}
+.darkBlue {
+	color: rgb(25,50,112);
+}
+.author-name{
+	color: rgb(70, 150, 180);
 	text-align: center;
 }
-
-#author-name{
-	color: rgb(1,73,92);
+.nextPage {
+	font-family: "Sora", sans-serif;
+	text-align: right;
 }
-
+h1 {
+	text-align: center;
+}
 h2 {
-	color: rgb(0,149,186);
-	font-family: sans-serif;
+	color: rgb(70, 150, 180);
+	font-family: "Sora", sans-serif;
+	font-size: 40px;
 }
-
 h3 {
-	color: rgb(0,149,186);
-	font-family: sans-serif;
+	color: rgb(70, 150, 180);
+	font-family: "Sora", sans-serif;
+	text-align: center;
 }
-
-.yellow {
-	color: yellow;
-}
-
 p {
 	text-indent: 60px;
+	font-size: 16px;
+	line-height: 1.5;
 }
-
 body {
-	background-color: rgb(209,246,255);
+	background-color: rgb(175, 238, 238);
 	color: rgb(1,43,54);
-	font-size: 20px;
-	line-height: 1.4;
 	font-family: sans-serif;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 75px;
+	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
+ol {
+	line-height: 30px;
+}
 /*pseudo-classes*/
 a {
+	color: rgb(70, 150, 180);
 	text-decoration: none;
 }
-
-a:visited {
-	color: magenta;
-}
-
-a:link {
-	color: tomato;
-}
-
 a:hover {
-	color: tomato;
-	border-bottom: 20px;
-	font-family: fantasy;
-	font-size: 300px;
-}
-
-a:active { /*"I am being clicked at this moment."*/
-	color: yellow;
+	color: rgb(255,127,80);
 }
