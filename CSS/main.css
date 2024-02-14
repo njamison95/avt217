@@ -28,11 +28,6 @@ ul {
 	/*add font-family: fontName; here */
 
 }
-img {
-	width: 100px;
-	height: auto;
-}
-
 /*pseudo-classes*/
 a {
 	text-decoration: none;
