@@ -24,10 +24,11 @@ body {
 	line-height: 30px;
 	/*add font-family: fontName; here */
 }
-ul {
-	/*add font-family: fontName; here */
-
+img {
+	width: 300px;
+	height: auto;
 }
+
 /*pseudo-classes*/
 a {
 	text-decoration: none;
