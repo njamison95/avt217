@@ -1,0 +1,49 @@
+#title {
+	color: #E3E4DB;
+	font-family: "Teko", sans-serif;
+  	font-size: 160px;
+  	font-weight: 600;
+  	font-style: normal;
+  	line-height: 140px;
+  	margin-top: 130px;
+  	margin-right: 100px;
+  	margin-bottom: 0px;
+}
+#summary {
+	color: #DA5552;
+	font-family: "Teko", sans-serif;
+	font-size: 55px;
+	font-weight: 600;
+	line-height: 60px;
+}
+#author {
+	color: #AEA4BF;
+}
+h2 {
+	color: #DA5552;
+	font-family: "Teko", sans-serif;
+	font-size: 40px;
+}
+h3 {
+	color: #AEA4BF;
+	font-family: "Teko", sans-serif;
+	font-size:30px;
+	line
+}
+body {
+	background-color: #342E37;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+p {
+	 color: #E3E4DB;
+	 font-family: "Cabin", sans-serif;
+	 font-size: 16px;
+	 line-height: 24px;
+}
+ol {
+	color: #E3E4DB;
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+}
