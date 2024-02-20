@@ -1,0 +1,50 @@
+.title {
+	color: rgb(25,50,112);
+	font-size: 80px;
+	font-family: "Sora", sans-serif;
+}
+.darkBlue {
+	color: rgb(25,50,112);
+}
+.author-name{
+	color: rgb(70, 150, 180);
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	color: rgb(70, 150, 180);
+	font-family: "Sora", sans-serif;
+	font-size: 40px;
+}
+h3 {
+	color: rgb(70, 150, 180);
+	font-family: "Sora", sans-serif;
+	text-align: center;
+}
+p {
+	text-indent: 60px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+body {
+	background-color: rgb(175, 238, 238);
+	color: rgb(1,43,54);
+	font-family: sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+ol {
+	line-height: 30px;
+}
+/*pseudo-classes*/
+a {
+	color: rgb(70, 150, 180);
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(255,127,80);
+}
