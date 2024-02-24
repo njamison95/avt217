@@ -1,0 +1,25 @@
+p {
+	font-size: 75px;
+	font-family: "Josefin Sans", sans-serif;
+  	font-weight: 700;
+  	color: plum;
+}
+.sizeTitle {
+	font-size: 50px;
+	color: plum;
+	margin-top: 100px;
+}
+body {
+	background: #482C3D;
+	text-align: center;
+}
+/*pseudo-classes*/
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: plum;
+}
+a:hover {
+	color: powderblue;
+}
