@@ -26,7 +26,7 @@ main {
 	display: flow-root;
 }
 .col {
-	width: 50%; /*makes the divs half as wide as the parent elements -- so half of 75vw*/
+	width: 50%; /*makes the divs half as wide as the parent elements -- so half of main 75vw*/
 	/*background-color: red;*/
 	margin-bottom: 100px;
 	float: left;
