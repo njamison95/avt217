@@ -1,36 +1,60 @@
+/*****GENERAL STYLES*****/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	background-color: rgb(94,87,104);
+
+	color: rgb(255, 240, 245);
+	font-family: "Raleway", sans-serif;
+	line-height: 30px;
+}
+
+/*****LAYOUT STYLES*****/
+header {
+	width: 75vw;
+	margin: 25px auto;
+	/*background-color: blue;*/
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	/*background-color: yellow;*/
+	display: flow-root;
+}
+.col {
+	width: 50%; /*makes the divs half as wide as the parent elements -- so half of 75vw*/
+	/*background-color: red;*/
+	margin-bottom: 100px;
+	float: left;
+}
+
+/*****TYPE STYLES*****/
 h1 {
-	color: rgb(94,87,104);
+	color: rgb(255, 240, 245);
 	font-family: "Gravitas One", serif;
-	font-size: 100px;
+	font-size: 225px;
 	line-height: 1;
+	margin-bottom: 40px;
+	margin-top: 100px;
 }
 h2 {
 	color: rgb(232,126,161);
 	font-family: "Gravitas One", serif;
-	font-size: 40px;
+	font-size: 60px;
+	margin-bottom: 30px;
 }
-.projects {
-	padding-top: 30px;
-}
-body {
-	background-color: rgb(255, 240, 245);
-	color: rgb(20,19,22);
-	font-family: "Raleway", sans-serif;
-	font-size: 16px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 90px;
-	margin-bottom: 100px;
-	line-height: 30px;
-	/*add font-family: fontName; here */
-}
-/*pseudo-classes*/
+
+/*****PSEUDO-CLASSES*****/
 a {
 	text-decoration: none;
-	color: rgb(20,19,22);
+	color: rgb(255, 240, 245);
 }
 a:visited {
-	color: rgb(20,19,22);
+	color: rgb(255, 240, 245);
 }
 a:hover {
 	color: rgb(232,126,161);
