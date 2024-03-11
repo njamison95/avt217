@@ -1,13 +1,12 @@
-/*****general styles*****/
+/*****GENERAL STYLES*****/
 * {
 	box-sizing: border-box;
 }
 body {
-	margin:-10px;
-	background-color: #70163C;
+	background-color: black;
 }
 
-/*****P1 layout styles*****/
+/*****P1 LAYOUT*****/
 .square {
 	width: 10vw;
 	height: 14vw;
@@ -17,8 +16,126 @@ body {
 	float: left;
 }
 
-/*****P2 layout styles*****/
+/*****P2 LAYOUT STYLES*****/
+.diamond1 {
+	width: 4vw;
+	height: 4vw;
+	background-color: navy;
+	border: 1vw dotted skyblue;
+	rotate: 45deg;
+	margin-left: 2vw;
+	float: left;
+}
+.diamond2 {
+	width: 4vw;
+	height: 4vw;
+	background-color: red;
+	border: 1vw dashed purple;
+	rotate: 45deg;
+	float: left;
+}
 
-/*****P3 layout styles*****/
+/*****P3 LAYOUT STYLES*****/
+.rectangle {
+	width: 8vw;
+	height: 9vw;
+	background-color: black;
+	box-shadow: 40px 40px 40px rgba(0, 0, 255, 5);
+	border-radius: 25%;
+	margin: 2vw;
+	float: left;
+}
+.oval {
+	width: 8vw;
+	height: 9vw;
+	background-color: black;
+	box-shadow: -40px -40px 40px rgba(255, 0, 0, 5);
+	border-radius: 50%;
+	margin: 2vw;
+	float: left;
+}
+/*****P4 LAYOUT STYLES*****/
+.circ {
+	background-color:#333333;
+	width:5vw;
+	height:5vw;
+	border-radius:50%;
+	float: left;
+	margin-left: 8vw;
+}
+.rect {
+	width:10vw;
+	height:5vw;
+	border-radius:5vw;
+	background-color:#AAAAAA;
+	float: left;
+}
+.circ2 {
+	background-color:#333333;
+	width:5vw;
+	height:5vw;
+	border-radius:50%;
+	float: left;
+}
+.rect2 {
+	width:10vw;
+	height:5vw;
+	border-radius:5vw;
+	background-color:#AAAAAA;
+	float: left;
+	margin-left: 8vw;
+}
 
-/*****P4 layout styles*****/
+/*****HOME PAGE STYLES*****/
+.headerHome {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+	background-color: #413C48;
+}
+.theHeader {
+	width: 50%;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	color: rgb(255, 240, 245);
+	float: left;
+}
+.mainHome {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+	background-color: #413C48;
+}
+.home {
+	width: 50%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 50px;
+	float: left;
+}
+
+/*****HP TEXT STYLES*****/
+h1 {
+	font-size: 80px;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+p {
+	font-size: 16px;
+	color: color: rgb(255, 240, 245);
+	font-family: "Raleway", sans-serif;
+}
+
+/*****TYPE STYLES*****/
+a {
+	text-decoration: none;
+	color: rgb(255, 240, 245);
+}
+a:visited {
+	color: rgb(255, 240, 245);
+}
+a:hover {
+	color: rgb(232,126,161);
+}
