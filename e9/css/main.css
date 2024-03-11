@@ -96,7 +96,8 @@ body {
 .theHeader {
 	width: 50%;
 	margin-left: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 	color: rgb(255, 240, 245);
 	float: left;
 }
@@ -108,10 +109,9 @@ body {
 }
 .home {
 	width: 50%;
-	margin-bottom: 25px;
-	margin-top: 25px;
 	margin-left: 50px;
-	float: left;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 /*****HP TEXT STYLES*****/
@@ -119,7 +119,7 @@ h1 {
 	font-size: 80px;
 	font-family: "Raleway", sans-serif;
 	margin-bottom: 0px;
-	margin-top: 25px;
+	margin-top: 0px;
 }
 
 p {
