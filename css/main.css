@@ -32,10 +32,16 @@ h1 {
 	color: rgb(255, 240, 245);
 	font-size: 100px;
 	line-height: 1;
+	font-family: "Josefin Sans", sans-serif;
 }
 h2 {
 	color: rgb(232,126,161);
 	font-size: 50px;
+	font-family: "Josefin Sans", sans-serif;
+}
+ul {
+	font-family: "Josefin Sans", sans-serif;
+	line-height: 2;
 }
 
 /*****PSEUDO-CLASSES*****/
