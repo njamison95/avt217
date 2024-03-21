@@ -8,8 +8,7 @@ html {
 body {
 	background-color: #413C48;
 	color: rgb(255, 240, 245);
-	font-family: "Raleway", sans-serif;
-	line-height: 30px;
+	line-height: auto;
 }
 
 /*****LAYOUT STYLES*****/
@@ -21,30 +20,22 @@ header {
 main {
 	width: 75vw;
 	margin: 25px auto;
-	/*background-color: yellow;*/
 	display: flow-root;
 }
 .col {
 	width: 50%; /*makes the divs half as wide as the parent elements -- so half of main 75vw*/
-	/*background-color: red;*/
-	margin-bottom: 100px;
 	float: left;
 }
 
 /*****TYPE STYLES*****/
 h1 {
 	color: rgb(255, 240, 245);
-	font-family: "Gravitas One", serif;
-	font-size: 225px;
+	font-size: 100px;
 	line-height: 1;
-	margin-bottom: 40px;
-	margin-top: 100px;
 }
 h2 {
 	color: rgb(232,126,161);
-	font-family: "Gravitas One", serif;
-	font-size: 60px;
-	margin-bottom: 30px;
+	font-size: 50px;
 }
 
 /*****PSEUDO-CLASSES*****/
@@ -57,4 +48,10 @@ a:visited {
 }
 a:hover {
 	color: rgb(232,126,161);
+}
+
+@media screen and (max-width: 1000px) {
+	.col {
+		width: 100%;
+	}
 }
