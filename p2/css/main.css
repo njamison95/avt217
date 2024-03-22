@@ -14,7 +14,7 @@ header {
 main {
 	width: 87vw;
 	margin: 25px auto;
-	display: flow-root;
+	display: flow-root; /*extends this container to include the floated divs*/
 }
 .img {
 	max-width: 100%;
@@ -41,7 +41,7 @@ main {
 
 
 /*****TEXT STYLES*****/
-h1 {
+h1 { /*P2.3: Mobile Designs Round 1, etc.*/
 	color: #FFFFF0;
 	font-family: "Josefin Sans", sans-serif;
   	font-weight: 700;
@@ -49,10 +49,10 @@ h1 {
 	margin-bottom: 0px;
 	text-align: left;
 }
-#home {
+#home { /*h1 id for P4 homepage*/
 	text-align: center;
 }
-.name {
+.name { /*h3 Nancy Jamison*/
 	color: #FFFFF0;
 	font-family: "Josefin Sans", sans-serif;
   	font-weight: 400;
@@ -61,7 +61,7 @@ h1 {
 	margin-bottom: 25px;
 	text-align: left;
 }
-h3 {
+h3 { /*1st Mobile Designs, etc.*/
 	color: #FFD97C;
 	font-family: "Josefin Sans", sans-serif;
   	font-weight: 400;
@@ -70,7 +70,7 @@ h3 {
 	margin-bottom: 0px;
 	text-align: left;
 }
-h4 {
+h4 { /*Landmarks & Museums, etc.*/
 	color: #FFFFF0;
 	font-family: "Josefin Sans", sans-serif;
   	font-weight: 400;
@@ -78,7 +78,7 @@ h4 {
 	margin-bottom: 20px;
 	text-align: left;
 }
-ul {
+ul { /*P2 Homepaage liist*/
 	color: #FFFFF0;
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 16px;
