@@ -128,24 +128,19 @@ button a:hover {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ff6347;
   }
   h2 {
     font-size: 2.998rem;
     margin-bottom: 0;
-    color: #ff6347;
   }
   h3 {
     font-size: 2.827rem;
-    color: #ff6347;
   }
   h4 {
     font-size: 0.999rem;
-    color: #ff6347;
   }
   h5 {
     font-size: 0.414rem;
-    color: #ff6347;
   }
   h6 {
     margin: 0;
@@ -153,7 +148,6 @@ button a:hover {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: .5px;
-    color: #ff6347;
   }
   p {
     font-size: 1rem;
@@ -162,5 +156,10 @@ button a:hover {
   .large-text {
     font-size: 1.5rem;
     line-height: 1.45;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff6347;
   }
 }
