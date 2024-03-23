@@ -128,19 +128,24 @@ button a:hover {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #ff6347;
   }
   h2 {
     font-size: 2.998rem;
     margin-bottom: 0;
+    color: #ff6347;
   }
   h3 {
     font-size: 2.827rem;
+    color: #ff6347;
   }
   h4 {
     font-size: 0.999rem;
+    color: #ff6347;
   }
   h5 {
     font-size: 0.414rem;
+    color: #ff6347;
   }
   h6 {
     margin: 0;
@@ -148,6 +153,7 @@ button a:hover {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: .5px;
+    color: #ff6347;
   }
   p {
     font-size: 1rem;
