@@ -187,3 +187,39 @@ main {
 	float: left;
 	display: flow-root;
 }
+
+/*CALIFORNIA CASE*/
+.smallest1 {
+	width: 25px;
+	height: 50px;
+	float: left;
+	background-color: blue;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.smallest2 {
+	width: 25px;
+	height: 50px;
+	float: left;
+	background-color: blue;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.smallest3{
+	width: 25px;
+	height: 50px;
+	float: left;
+	background-color: blue;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.col1 {
+	width: 35px;
+	height: 390px;
+	background-color: palevioletred;
+	display: flow-root;
+}
