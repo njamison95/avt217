@@ -1,0 +1,61 @@
+body {
+	height: 9000px;
+}
+.static {
+	width: 200px;
+	height: 200px;
+	background-color: purple;
+	margin: 10px;
+}
+.relative {
+	width: 200px;
+	height: 200px;
+	background-color: skyblue;
+	margin: 10px;
+	position: relative; /*relative to the original position of the : in line with the static one*/
+	top: 50px; /*offset 50px from the top: moves down*/
+	left: 50px; /*offset 50 px from left: moves right*/
+}
+.absolute {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	margin: 10px;
+	position: absolute; /*won't move anywhere if we move the div before or after other divs in the html*/
+	top: 50px;
+	left: 50px;
+	z-index: -10;
+}
+.fixed {
+	width: 100vw;
+	height: 50px;
+	background-color: darkseagreen;
+	margin: 0px;
+	position: fixed; /*keeps a div on the screen in the same place even if you scroll*/
+	top: 0px;
+	left: 0px;
+}
+
+
+.absolute2 {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	margin: 10px;
+	position: absolute; /*won't move anywhere if we move the div before or after other divs in the html*/
+	top: 50px;
+	left: 50px;
+}
+.no-position {
+	width: 500px;
+	height: 500px;
+	float: left;
+	background-color: blue;
+}
+.has-position {
+	width: 500px;
+	height: 500px;
+	float: left;
+	background-color: red;
+	position: relative;
+}
